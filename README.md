@@ -18,6 +18,7 @@ No paid APIs, no credit card required, and no hidden costs-just open-source tool
 
 Code Structure
 
+```
 algorithmic-trading/
 │
 ├── app.py                # Main Streamlit app (UI, workflow)
@@ -27,6 +28,7 @@ algorithmic-trading/
 ├── plot_utils.py         # All plotting functions (candlestick, equity, etc.)
 ├── requirements.txt      # All dependencies
 └── README.md             # This file
+```
 
 ---
 
@@ -82,6 +84,7 @@ Features
 
 Example Algorithm
 
+```
 def trade(market_data):
     # Simple moving average crossover
     # (implement your own logic here)
@@ -91,7 +94,7 @@ def trade(market_data):
         return {'buy': False, 'sell': True}
     else:
         return {'buy': False, 'sell': False}
-
+```
 ---
 
 Extending the App
